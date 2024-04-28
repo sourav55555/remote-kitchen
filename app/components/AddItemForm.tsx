@@ -71,8 +71,15 @@ export default function AddItemForm() {
                     onSubmit: (event: React.FormEvent<HTMLFormElement>) => {
                         event.preventDefault();
                         const formData = new FormData(event.currentTarget);
-                        const formJson = Object.fromEntries((formData as any).entries());
-                        handleAddData(formJson)
+                        const formJson: FoodList = {
+                            id: 0, 
+                            name: formData.get('name') as string,
+                            image: formData.get('image') as string,
+                            short_details: formData.get('short_details') as string,
+                            price: parseFloat(formData.get('price') as string), 
+                            delivery_charge: parseFloat(formData.get('delivery_charge') as string)
+                        };
+                        handleAddData(formJson);
                         handleClose();
                     },
                 }}
