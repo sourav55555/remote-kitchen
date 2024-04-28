@@ -1,36 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# 1st question ans
+-- If I worked on a Hotfix in frontend development and the hotfix is for some responsive issue then "responsive-issue-quickfix" will be my branch name. After finishing the code, I will push my code on "responsive-issue-quickfix" branch. There will be a create pull request option on github link. I will create a pull request by selecting the production branch with my "responsive-issue-quickfix" branch. 
+After that, I will review the marge conflict (if there is any) and merge the pull request. This will merge the production branch with responsive-issue-quickfix.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# 2nd question ans
+--I am not sure about how much my approach will work. As I understood and thought, first I will check all types of collections menu items, then I will check each category menu item id's and will check the corresponding id's which match with the menu items id's. Filter the matching id's menu item and store those values, so that I can show the manuitems name for categories also. 
+I will use some filters, find, nested loops, etc for getting the values in the code.
