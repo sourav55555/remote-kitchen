@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Classic Cheeseburger",
+      "image": "https://img.freepik.com/free-photo/meat-cheeseburger-soft-bread-fries-wooden-board_140725-4810.jpg?t=st=1714194511~exp=1714198111~hmac=0695062f0e9c34d70587d5ad3cbcfb67c868eb362e2e6169c8a7f2dd340ccea0&w=740",
+      "short_details": "Juicy beef patty topped with melted cheese, lettuce, tomato, and pickles on a toasted bun.",
+      "price": 10.99,
+      "delivery_charge": 2.50
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "image": "https://img.freepik.com/free-photo/top-view-delicious-arugula-pizza_23-2148574286.jpg?t=st=1714194577~exp=1714198177~hmac=ed10e37111ac24b0111008db8517c108aa566b49a384dfc21ee74410623499d6&w=740",
+      "short_details": "Traditional Italian pizza topped with fresh tomatoes, mozzarella cheese, basil, and olive oil.",
+      "price": 12.50,
+      "delivery_charge": 3.00
+    },
+    {
+      "id": 3,
+      "name": "Chicken Alfredo Pasta",
+      "image": "https://img.freepik.com/free-photo/ai-generated-pasta_23-2150637319.jpg?t=st=1714194649~exp=1714198249~hmac=a7643ff07747060583c71d2c43231e728de3460a240bf982590a52cd076dd0ed&w=740",
+      "short_details": "Creamy Alfredo sauce tossed with tender grilled chicken breast and fettuccine pasta.",
+      "price": 14.99,
+      "delivery_charge": 2.75
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir-Fry",
+      "image": "https://img.freepik.com/free-photo/hot-spicy-stew-eggplant-sweet-pepper-olives-capers-with-basil-leaves_2829-6420.jpg?t=st=1714194716~exp=1714198316~hmac=2054c52ba4e3d4fca43f09725a98b1550ea52255ea3bea8914abfcf522f50166&w=996",
+      "short_details": "Assorted vegetables stir-fried in a savory sauce served with steamed rice.",
+      "price": 11.50,
+      "delivery_charge": 3.25
+    },
+    {
+      "id": 5,
+      "name": "Grilled Salmon",
+      "image": "https://img.freepik.com/free-photo/fish-fillet-frilled-served-lettuce-leaf-with-onion-lemon_114579-3409.jpg?t=st=1714194808~exp=1714198408~hmac=e23916226647422cf3f2a061fcc482f962afd838ef06072c2d34358bf17cb447&w=740",
+      "short_details": "Fresh Atlantic salmon fillet seasoned and grilled to perfection, served with roasted vegetables.",
+      "price": 16.75,
+      "delivery_charge": 3.50
+    },
+    {
+      "id": 6,
+      "name": "Caesar Salad",
+      "image": "https://img.freepik.com/free-photo/green-salad-with-chopped-lettuce-black-olives_114579-9272.jpg?t=st=1714194844~exp=1714198444~hmac=62ee7da051fbb4b24e0257252fce914bf3e92d1d95e4edb448e24015cc730d10&w=740",
+      "short_details": "Crisp romaine lettuce tossed in creamy Caesar dressing with croutons and Parmesan cheese.",
+      "price": 9.50,
+      "delivery_charge": 2.25
+    },
+    {
+      "id": 7,
+      "name": "Beef Tacos",
+      "image": "https://img.freepik.com/free-photo/delicious-traditional-tacos-arrangement_23-2150799475.jpg?t=st=1714194872~exp=1714198472~hmac=17d0eee04755a6102bb8e32371111f2615dfbb73f8ac8b8d835a27940c54f3f2&w=740",
+      "short_details": "Soft corn tortillas filled with seasoned ground beef, lettuce, cheese, and salsa.",
+      "price": 8.99,
+      "delivery_charge": 2.75
+    },
+    {
+      "id": 8,
+      "name": "Chicken Tikka Masala",
+      "image": "https://img.freepik.com/free-photo/side-view-chicken-kebab-lavash-served-with-fresh-herbs-onion-adjika-sauce_141793-2957.jpg?t=st=1714194927~exp=1714198527~hmac=996682cc9d07a854c73451bfc60da25bc96c45a2acf0bbdf34f07d7926ed7b53&w=360",
+      "short_details": "Tender chicken pieces cooked in a rich tomato-based curry sauce, served with basmati rice.",
+      "price": 13.99,
+      "delivery_charge": 3.25
+    },
+    {
+      "id": 9,
+      "name": "BBQ Ribs",
+      "image": "https://img.freepik.com/free-photo/close-top-view-meat-kebab-skewer-with-grilled-potatoes-vegetables-with-sauce-fire-board_141793-4558.jpg?t=st=1714194956~exp=1714198556~hmac=73f8f8226387b04b85812a265822e1c8b7a24106af5fd32aaa62810336941de2&w=740",
+      "short_details": "Slow-cooked pork ribs smothered in tangy barbecue sauce, served with coleslaw and fries.",
+      "price": 18.50,
+      "delivery_charge": 4.00
+    },
+    {
+      "id": 10,
+      "name": "Sushi Platter",
+      "image": "https://img.freepik.com/free-photo/mixed-sushi-rolls-plate_140725-3478.jpg?t=st=1714194993~exp=1714198593~hmac=e6bd56da161fa554c2feff73fb01094f0c49fc75455a2edc6e08f93057707a10&w=360",
+      "short_details": "Assortment of fresh sushi rolls including California rolls, tuna rolls, and salmon nigiri.",
+      "price": 22.99,
+      "delivery_charge": 5.00
+    }
+  ]
+  

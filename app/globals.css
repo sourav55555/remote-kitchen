@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&family=Salsa&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #77dd61;
+  --secondary-color: #444444;
+}
+
+.lugrasimo-regular {
+  font-family: "Lugrasimo", cursive;
+  font-style: normal;
+}
+
+/* .custom-bg{
+  background: rgb(119,221,97);
+  background: linear-gradient(106deg, rgba(119,221,97,1) 0%, rgba(218,246,211,1) 56%, rgba(236,250,233,1) 100%); 
+} */
+.custom-bg {
+  background: rgb(236, 250, 233);
+  background: linear-gradient(
+    106deg,
+    rgba(236, 250, 233, 1) 0%,
+    rgba(218, 246, 211, 1) 44%,
+    rgba(119, 221, 97, 1) 100%
+  );
+}
+
+.body-bg {
+  background: rgb(218, 246, 211);
+  background: radial-gradient(
+    circle,
+    rgba(218, 246, 211, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(233, 250, 229, 1) 100%
+  );
+}
+
+.card-radius {
+  border-radius: 0px 34px;
+}
