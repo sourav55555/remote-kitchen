@@ -6,5 +6,5 @@ After that, I will review the marge conflict (if there is any) and merge the pul
 
 
 # 2nd question ans
---I am not sure about how much my approach will work. As I understood and thought, first I will check all types of collections menu items, then I will check each category menu item id's and will check the corresponding id's which match with the menu items id's. Filter the matching id's menu item and store those values, so that I can show the manuitems name for categories also. 
+--In the data menuItems with type is set. So I will check the category's menuItems first. When I get the category manuItems id's, I will check all available menuItem lists of all "types" and find the matching menuItem id's with the category. Then I can somehow store or display the category's menuItem full data. I will do the same process for each category and hopefully, this will help the data showing and working process.
 I will use some filters, find, nested loops, etc for getting the values in the code.
