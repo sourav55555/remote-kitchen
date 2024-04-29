@@ -58,8 +58,10 @@ export default function Home() {
   }
 
   useEffect(() => {
-    console.log("data update effect")
     dispatch(setFoodList(localData));
+    if(limit > 6){
+      dispatch(setLimit(foodList.length + 1));
+    }
   }, [refresh, localData, dispatch])
 
   //  sort functions 
@@ -185,7 +187,7 @@ export default function Home() {
 
           <div className='mt-6 mb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center max-w-[720px] lg:max-w-[1200px] mx-auto'>
             {
-              foodList.slice(0, limit).map(foodData => <CardComponent foodData={foodData} deleteItem={deleteItem} setRefresh={setRefresh} />)
+              foodList.slice(0, limit).map(foodData => <CardComponent key={foodData.id} foodData={foodData} deleteItem={deleteItem} />)
             }
           </div>
 
@@ -193,7 +195,7 @@ export default function Home() {
             <Button
               className={`font-semibold bg-green-600 px-8 py-3 text-white card-radius hover:bg-green-400 hover:text-black ${limit > 6 ? "hidden" : "inline-block"}`}
               style={{ textTransform: 'none' }}
-              onClick={() => dispatch(setLimit(foodList.length))}
+              onClick={()=> dispatch(setLimit(foodList.length + 1))}
             >
               Show All
             </Button>

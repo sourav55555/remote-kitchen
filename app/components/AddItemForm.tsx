@@ -12,7 +12,6 @@ import { fromJSON } from 'postcss';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
 import { setRefresh } from '../redux/slices/kitchenSlice';
-import { Alert } from '@mui/material';
 import toast from 'react-hot-toast';
 
 interface FoodList {
@@ -32,15 +31,8 @@ export default function AddItemForm() {
     // get local storage data 
     const { localData } = useGetLocalData(refresh);
 
-    const [open, setOpen] = React.useState(false);
-    const handleClickOpen = () => {
-        setOpen(true);
-    };
-    const handleClose = () => {
-        setOpen(false);
-    };
 
-    // add item 
+    // add item function
     const handleAddData = (formJson: FoodList) => {
         formJson.id = localData.length + 1;
         console.log(formJson, "add data");
@@ -49,6 +41,13 @@ export default function AddItemForm() {
         dispatch(setRefresh(!refresh));
         toast.success('Item added successfully!')
     }
+    const [open, setOpen] = React.useState<boolean>(false);
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+    const handleClose = () => {
+        setOpen(false);
+    };
 
     return (
         <React.Fragment>

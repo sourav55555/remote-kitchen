@@ -20,7 +20,7 @@ interface FoodList {
 interface Props {
     foodData: FoodList;
     deleteItem: (id: number) => void;
-    setRefresh: any;
+    // setRefresh: any;
 }
 
 const CardComponent: React.FC<Props> = ({ foodData, deleteItem }) => {
